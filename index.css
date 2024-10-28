@@ -1,0 +1,81 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100dvh;
+    overflow: hidden;
+    background-color: #1F2937;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.container-box {
+    width: 750px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.seed-input {
+    width: 60px;
+    height: 45px;
+    cursor: pointer;
+    border: none;
+}
+
+.color-scheme {
+    height: 45px;
+    width: 400px;
+}
+
+.scheme-btn {
+    border: 1px solid #3D4B60;
+    background-color: #3D4B60;
+    padding: 12px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.color-image {
+    width: 150px;
+    height: 600px;
+}
+
+.color-text {
+    text-align: center;
+    color: #fff;
+}
+
+
+select {
+    background-color: #1F2937;
+    color: #fff;
+    outline: none;
+    /* remove the outline shown on focus */
+    cursor: pointer;
+    /* change the mouse cursor icon */
+    font-family: serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
